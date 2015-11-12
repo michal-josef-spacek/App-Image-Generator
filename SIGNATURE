@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.79.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 61975673f1ebf24bfcf4d331bdd55c0148ccabb3 Changes
+SHA1 c6f0b6d3862e796c53e63351b9917ccc15e658c4 Generator.pm
+SHA1 3e45d6396bfb290fc391c26cd0e276c27c1659f9 MANIFEST
+SHA1 c0094324e946d91425a9f83c74f43d3444351782 META.yml
+SHA1 31b2ec71aa2c0963fffc826f4ada524a4111662d Makefile.PL
+SHA1 cd5d7d2278a82114ecfdd648896fcde3af3149cb README
+SHA1 899f60603371d5d0711d6b8259ae1fd1c988e839 bin/image-generator
+SHA1 fd1fb741d1bf6277db7a1a37da1983c7b9eed9aa examples/ex1.pl
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 5c1a9d3a384a5262cbc105ab76d446047904c7fa inc/Module/Install/AuthorRequires.pm
+SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 01978a56e76a58399af3bd4d022aa990b9669bee inc/Module/Install/Scripts.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
+SHA1 d7a454013e3b25e5f98016e5a24e9392058e5764 t/App-Image-Generator/01-use.t
+SHA1 c7df43022072b09cfc664e95cf8850fe48131719 t/App-Image-Generator/02-version.t
+SHA1 ee30d0965503b912f6a65c13bdee94bb14d8523f xt/App-Image-Generator/01-pod_coverage.t
+SHA1 82efecc33032f9d49c450c4d97c1dd7cfc188bbb xt/App-Image-Generator/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWRKolAAoJEJe+XXKaIuTl0LkH/2vZpgl93JTcIygcLOTrYGt3
+opc4ejt1Cx3Yswm4r9sWThv+Rj71mkF/EmfZlSqDSzIN3old4YU9sY+daYoNk0Oo
+QqSb8bl58IEjX12CTZIRGvdX8HvmyZXT97BY2iXJOsW/vKsYMbEChIv9bXSe+zDg
+isMaasMGfGuRbFHJO+uyL6/8O3WontZZWKgSvaYG0C5M/mjIh+huJXVfFgL0pbqp
+Hqi7rE8iTInBAiQxshXN9sBv8KJrBwO2kUY/cy4wHEYqY480aTgG8JtCRhgfVldf
+wprD4d/k9cGvCC2nrQfYxwalWQ84oiL/EZxbbxaGxxfaPVK9zWReBmg6w2+tEuI=
+=rssI
+-----END PGP SIGNATURE-----
