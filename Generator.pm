@@ -70,6 +70,9 @@ sub run {
 			qr{\..*$});
 		$suffix =~ s/^\.//g;
 		my $type = lc($suffix);
+		if ($type eq 'jpg') {
+			$type = 'jpeg';
+		}
 
 		# Images from directory.
 		my $ig;
