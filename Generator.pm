@@ -69,6 +69,7 @@ sub run {
 		my (undef, undef, $suffix) = fileparse($self->{'_output_file'},
 			qr{\..*$});
 		$suffix =~ s/^\.//g;
+		my $type = lc($suffix);
 
 		# Images from directory.
 		my $ig;
@@ -77,7 +78,7 @@ sub run {
 				'debug' => ($self->{'_opts'}->{'v'} ? 1 : 0),
 				'height' => $self->{'_height'},
 				'path_to_images' => $self->{'_opts'}->{'i'},
-				'type' => $suffix,
+				'type' => $type,
 				'width' => $self->{'_width'},
 			);
 
@@ -85,7 +86,7 @@ sub run {
 		} else {
 			$ig = Image::Random->new(
 				'height' => $self->{'_height'},
-				'type' => $suffix,
+				'type' => $type,
 				'width'=> $self->{'_width'},
 			);
 		}
