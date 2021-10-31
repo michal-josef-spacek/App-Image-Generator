@@ -1,4 +1,5 @@
 0.03
+ - Fix Makefile.PL which fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.19.
 
