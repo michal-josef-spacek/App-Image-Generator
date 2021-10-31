@@ -1,10 +1,8 @@
 package App::Image::Generator;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use English;
 use Error::Pure qw(err);
 use File::Basename qw(fileparse);
@@ -16,7 +14,6 @@ use Readonly;
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-# Version.
 our $VERSION = 0.03;
 
 # Constructor.
@@ -146,11 +143,9 @@ App::Image::Generator - Perl class for image-generator application.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::Image::Generator;
 
  # Run.
