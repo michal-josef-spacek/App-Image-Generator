@@ -1,4 +1,4 @@
-0.03
+0.03 2021-10-31T11:25:12+01:00
  - Add test for constructor.
  - Add test for run with help.
  - Fix Makefile.PL which fails with no '.' in @INC.
