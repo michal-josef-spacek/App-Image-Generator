@@ -117,21 +117,25 @@ App::Image::Generator - Perl class for image-generator application.
  use App::Image::Generator;
 
  my $obj = App::Image::Generator->new;
- $obj->run;
+ my $exit_code = $obj->run;
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new()>
+ my $obj = App::Image::Generator->new;
 
- Constructor.
+Constructor.
 
-=item C<run()>
+Returns instance of object.
 
- Run.
+=head2 C<run>
 
-=back
+ my $exit_code = $obj->run;
+
+Run.
+
+Returns exit code.
 
 =head1 ERRORS
 
