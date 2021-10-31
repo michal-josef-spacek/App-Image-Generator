@@ -6,8 +6,6 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 use Test::Output;
 
-#App::Image::Generator->new->run;
-
 # Test.
 @ARGV = (
 	'-h',
