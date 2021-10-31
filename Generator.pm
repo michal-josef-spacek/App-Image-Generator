@@ -183,7 +183,7 @@ Perl class for video-generator application.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/App-Image-Generator>.
+L<https://github.com/michal-josef-spacek/App-Image-Generator>.
 
 =head1 AUTHOR
 
