@@ -2,6 +2,7 @@
  - Fix Makefile.PL which fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.19.
+ - Update author name.
 
 0.02 2016-04-04T15:20:27+02:00
  - Add LICENSE file.
