@@ -50,7 +50,8 @@ sub run {
 			"1920x1080).\n";
 		print STDERR "\t-v\t\tVerbose mode.\n";
 		print STDERR "\t--version\tPrint version.\n";
-		exit 1;
+
+		return 1;
 	}
 	$self->{'_output_file'} = $ARGV[0];
 
@@ -95,6 +96,7 @@ sub run {
 	if ($EVAL_ERROR) {
 		err 'Cannot create image.';
 	}
+
 	return 0;
 }
 

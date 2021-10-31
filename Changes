@@ -2,6 +2,7 @@
  - Add test for constructor.
  - Fix Makefile.PL which fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - In run() don't exit, only return exit code.
  - Update Module::Install to 1.19.
  - Update author github username.
  - Update author name.
