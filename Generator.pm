@@ -115,6 +115,7 @@ App::Image::Generator - Perl class for image-generator application.
 =head1 SYNOPSIS
 
  use App::Image::Generator;
+
  my $obj = App::Image::Generator->new;
  $obj->run;
 
