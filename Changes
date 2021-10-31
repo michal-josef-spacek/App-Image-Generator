@@ -1,5 +1,6 @@
 0.03
  - Add test for constructor.
+ - Add test for run with help.
  - Fix Makefile.PL which fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - In run() don't exit, only return exit code.
