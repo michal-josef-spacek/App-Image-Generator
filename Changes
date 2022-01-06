@@ -1,4 +1,5 @@
 0.04
+ - Fix hardcoded relative path in test.
 
 0.03 2021-10-31T11:25:12+01:00
  - Add test for constructor.
