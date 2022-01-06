@@ -14,7 +14,7 @@ use Readonly;
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 # Constructor.
 sub new {
@@ -206,6 +206,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
