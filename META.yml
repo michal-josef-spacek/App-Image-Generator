@@ -36,7 +36,7 @@ requires:
   Readonly: 0
   perl: 5.6.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-Image-Generator
+  bugtracker: https://github.com/michal-josef-spacek/App-Image-Generator/issues
   homepage: https://github.com/michal-josef-spacek/App-Image-Generator
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/App-Image-Generator
