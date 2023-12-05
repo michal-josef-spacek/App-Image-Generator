@@ -1,6 +1,7 @@
 0.05
  - Fix test of run on Windows.
  - Move bugtracker to github.
+ - Rename example file to better name.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 
