@@ -1,6 +1,7 @@
 0.05
  - Fix test of run on Windows.
  - Update Module::Install to 1.21 version.
+ - Update copyright years.
 
 0.04 2022-01-06T15:12:35+01:00
  - Fix hardcoded relative path in test.
