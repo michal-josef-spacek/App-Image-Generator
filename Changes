@@ -1,5 +1,6 @@
 0.06
  - Add help() helper to run test.
+ - Add support for checkerboard pattern.
  - Add tests for constructor.
  - Update copyright years.
 
