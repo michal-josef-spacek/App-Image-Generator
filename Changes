@@ -1,5 +1,6 @@
 0.06
  - Add help() helper to run test.
+ - Add tests for constructor.
  - Update copyright years.
 
 0.05 2023-12-05T13:35:12+01:00

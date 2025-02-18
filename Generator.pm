@@ -38,8 +38,9 @@ sub run {
 		's' => '1920x1080',
 		'v' => 0,
 	};
-	if (! getopts('hi:s:v', $self->{'_opts'}) || @ARGV < 1
-		|| $self->{'_opts'}->{'h'}) {
+	if (! getopts('hi:s:v', $self->{'_opts'})
+		|| $self->{'_opts'}->{'h'}
+		|| @ARGV < 1) {
 
 		print STDERR "Usage: $0 [-h] [-i input_dir] [-s size] [-v]".
 			"\n\t[--version] output_file\n\n";
