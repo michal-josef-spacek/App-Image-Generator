@@ -13,12 +13,23 @@ use Test::Output;
 @ARGV = (
 	'-h',
 );
-my $script = abs2rel(File::Object->new->file('04-run.t')->s);
-# XXX Hack for missing abs2rel on Windows.
-if ($OSNAME eq 'MSWin32') {
-	$script =~ s/\\/\//msg;
-}
-my $right_ret = <<"END";
+my $right_ret = help();
+stderr_is(
+	sub {
+		App::Image::Generator->new->run;
+		return;
+	},
+	$right_ret,
+	'Run help.',
+);
+
+sub help {
+	my $script = abs2rel(File::Object->new->file('04-run.t')->s);
+	# XXX Hack for missing abs2rel on Windows.
+	if ($OSNAME eq 'MSWin32') {
+		$script =~ s/\\/\//msg;
+	}
+	my $help = <<"END";
 Usage: $script [-h] [-i input_dir] [-s size] [-v]
 	[--version] output_file
 
@@ -28,11 +39,6 @@ Usage: $script [-h] [-i input_dir] [-s size] [-v]
 	-v		Verbose mode.
 	--version	Print version.
 END
-stderr_is(
-	sub {
-		App::Image::Generator->new->run;
-		return;
-	},
-	$right_ret,
-	'Run help.',
-);
+
+	return $help;
+}
