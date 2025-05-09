@@ -199,8 +199,10 @@ L<English>,
 L<Error::Pure>,
 L<File::Basename>,
 L<Getopt::Std>,
+L<Image::Checkerboard>,
 L<Image::Random>,
 L<Image::Select>,
+L<List::Util>,
 L<Readonly>.
 
 =head1 SEE ALSO

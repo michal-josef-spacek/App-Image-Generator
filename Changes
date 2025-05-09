@@ -1,4 +1,5 @@
 0.08
+ - Fix DEPENDENCIES section in doc.
  - Fix minimal version of Test::Warn to 0.31.
  - Fix output of EXAMPLE in doc.
 
