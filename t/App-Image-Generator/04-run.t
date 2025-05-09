@@ -6,7 +6,7 @@ use English;
 use Error::Pure::Utils qw(clean);
 use File::Object;
 use File::Spec::Functions qw(abs2rel);
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
 use Test::NoWarnings;
 use Test::Output;
 use Test::Warn 0.31;
@@ -61,6 +61,17 @@ eval {
 	App::Image::Generator->new->run;
 };
 is($EVAL_ERROR, "Bad size value.\n", "Bad size value (-s 100).");
+clean();
+
+# Test.
+@ARGV = (
+	'-p bad_pattern',
+	'output_file.png',
+);
+eval {
+	App::Image::Generator->new->run;
+};
+is($EVAL_ERROR, "Bad pattern.\n", "Bad pattern (-p bad_pattern).");
 clean();
 
 sub help {
