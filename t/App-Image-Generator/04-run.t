@@ -8,7 +8,7 @@ use File::Spec::Functions qw(abs2rel);
 use Test::More 'tests' => 5;
 use Test::NoWarnings;
 use Test::Output;
-use Test::Warn;
+use Test::Warn 0.31;
 
 # Test.
 @ARGV = (
