@@ -17,7 +17,7 @@ use Readonly;
 Readonly::Scalar our $EMPTY_STR => q{};
 Readonly::Array our @PATTERNS => qw(checkerboard);
 
-our $VERSION = 0.08;
+our $VERSION = 0.09;
 
 # Constructor.
 sub new {
@@ -233,6 +233,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.08
+0.09
 
 =cut
